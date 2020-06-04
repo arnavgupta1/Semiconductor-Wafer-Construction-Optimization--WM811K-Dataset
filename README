@@ -1,0 +1,8 @@
+This is a model that uses the data of the WM811K dataset. It implements a deep learning model that learns from the dataset
+and categorizes the wafers based on the data it receives. 
+
+The data is scaled down to the same size, done by the PIL library, in order for the model to intake all input the same way. The
+model is made using the Tensorflow library as well as the Keras API. In order for the output to be different categories, the
+input goes through One-Hot Encoding so it is clear what the category it is placed in is.
+
+WM811K dataset is not available in this respository, but can be sent via direct inquiry.
